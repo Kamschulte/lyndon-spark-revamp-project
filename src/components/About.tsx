@@ -1,27 +1,27 @@
 
-import { Code, Users, Lightbulb, Target } from "lucide-react";
+import { TrendingUp, Users, Lightbulb, Target } from "lucide-react";
 
 const About = () => {
   const features = [
     {
-      icon: Code,
-      title: "Technical Excellence",
-      description: "Full-stack development with modern technologies and best practices"
+      icon: TrendingUp,
+      title: "Conversion Rate Optimization",
+      description: "Data-driven strategies that deliver measurable business impact"
     },
     {
       icon: Users,
-      title: "Team Leadership",
-      description: "Building and mentoring high-performing engineering teams"
+      title: "Cross-Functional Collaboration",
+      description: "Building partnerships between data, design, and development"
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "Driving technological innovation and digital transformation"
+      title: "Experimentation Strategy",
+      description: "A/B testing and personalization expertise across platforms"
     },
     {
       icon: Target,
-      title: "Results-Driven",
-      description: "Focused on delivering measurable business outcomes"
+      title: "Analytics & Insights",
+      description: "Turning complex data into actionable growth strategies"
     }
   ];
 
@@ -38,14 +38,16 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-lg text-gray-300 leading-relaxed mb-12 space-y-6">
             <p>
-              I'm a passionate software engineer and technology leader with extensive experience in full-stack development, 
-              team management, and driving digital transformation initiatives. My journey in technology has been driven by 
-              a constant desire to learn, innovate, and create solutions that make a real impact.
+              I'm a data-driven digital marketer and optimization strategist with over 6 years of experience helping companies turn insights into growth. I specialize in the overlap of A/B testing, personalization, and user experience, developing data-backed strategies that not only improve websites but deliver measurable business impact.
             </p>
             <p>
-              Throughout my career, I've had the privilege of working with diverse teams and technologies, from startups 
-              to enterprise environments. I believe in the power of collaboration, continuous learning, and building 
-              software that not only meets technical requirements but also delivers exceptional user experiences.
+              I've led experimentation, CRO and website data analysis efforts at large enterprises like AbbVie, Autodesk, and Sling TV, as well as in fast-paced agency environments. Whether it's launching high-impact A/B tests or personalizations, uncovering friction points with heatmaps, or partnering cross-functionally to improve UX/UI, I thrive on solving complex challenges that make digital experiences better for real people.
+            </p>
+            <p>
+              I love collaborating with talented cross-functional teams and believe the best results come from strong partnerships between data, design, and development.
+            </p>
+            <p className="text-blue-300 font-semibold">
+              If you're seeking expertise in A/B testing, personalization, or analytics, I'd love to discuss how I can contribute.
             </p>
           </div>
           

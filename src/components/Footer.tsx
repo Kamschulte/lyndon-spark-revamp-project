@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { Mail, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,28 +8,27 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h3 className="text-2xl font-bold text-white mb-2">Lyndon Kamschulte</h3>
-            <p className="text-gray-400">Software Engineer & Technology Leader</p>
+            <p className="text-gray-400">Senior Marketing Analyst</p>
+            <p className="text-gray-400">Web Optimization, A/B Testing and Analytics</p>
           </div>
           
           <div className="flex space-x-6">
             <a 
-              href="https://www.linkedin.com/in/lyndonkamschulte/" 
+              href="https://www.linkedin.com/in/lyndonkamschulte" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-300 transform hover:scale-110"
             >
-              <Linkedin className="h-6 w-6 text-white" />
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                alt="LinkedIn"
+                className="h-6 w-6"
+              />
             </a>
             <a 
-              href="https://github.com/lyndonkamschulte" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 transform hover:scale-110"
-            >
-              <Github className="h-6 w-6 text-white" />
-            </a>
-            <a 
-              href="mailto:lyndon@example.com"
+              href="https://forms.gle/P5a7JxVDUcUbAqoe8"
+              target="_blank"
+              rel="noopener noreferrer" 
               className="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center hover:bg-purple-600 transition-colors duration-300 transform hover:scale-110"
             >
               <Mail className="h-6 w-6 text-white" />

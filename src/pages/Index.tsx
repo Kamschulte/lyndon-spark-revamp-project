@@ -1,9 +1,8 @@
 
 import Hero from "../components/Hero";
 import About from "../components/About";
+import Skills from "../components/Skills";
 import Experience from "../components/Experience";
-import Projects from "../components/Projects";
-import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 const Index = () => {
@@ -11,9 +10,8 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <Hero />
       <About />
+      <Skills />
       <Experience />
-      <Projects />
-      <Contact />
       <Footer />
     </div>
   );

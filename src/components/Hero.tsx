@@ -1,5 +1,5 @@
 
-import { ChevronDown, Download, Linkedin } from "lucide-react";
+import { ChevronDown, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
@@ -17,32 +17,38 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-6 text-center relative z-10">
-        <div className="animate-fade-in">
+        <div className="animate-fade-in flex flex-col items-center">
+          <img
+            src="https://cdn.glitch.global/511ba398-71cf-415b-9eeb-c94df8a846bf/Screenshot_20250604_145543_Gallery.jpg?v=1749074219684"
+            alt="Photo of Lyndon"
+            className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover mb-8 border-4 border-blue-400/30 shadow-2xl"
+          />
+          
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
             Lyndon Kamschulte
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Software Engineer & Technology Leader
+            <strong>Senior Marketing Analyst</strong>
           </p>
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
-            Passionate about building innovative solutions and leading high-performing teams
+            Web Optimization, A/B Testing and Analytics
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button 
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
-              onClick={() => window.open('/resume.pdf', '_blank')}
+              onClick={() => window.open('https://cdn.glitch.global/511ba398-71cf-415b-9eeb-c94df8a846bf/Lyndon Kamschulte Resume.pdf?v=1749928993114', '_blank')}
             >
               <Download className="mr-2 h-5 w-5" />
-              Download Resume
+              Download My Resume
             </Button>
             <Button 
               variant="outline" 
-              className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
-              onClick={() => window.open('https://www.linkedin.com/in/lyndonkamschulte/', '_blank')}
+              className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+              onClick={() => window.open('https://forms.gle/P5a7JxVDUcUbAqoe8', '_blank')}
             >
-              <Linkedin className="mr-2 h-5 w-5" />
-              LinkedIn
+              <Mail className="mr-2 h-5 w-5" />
+              Contact Me
             </Button>
           </div>
         </div>
